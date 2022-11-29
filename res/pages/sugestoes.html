@@ -26,9 +26,9 @@
     <header>
         <nav>
             <ul class="menu-nav">
-                <li>Sobre</li>
-                <li>Contato</li>
-                <li>Sugestões</li>
+                <li><a href="../pages/sobre.html">Sobre</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+                <li><a href="../pages/sugestoes.html">Sugestões</a></li>
             </ul>
         </nav>
     </header>
@@ -44,20 +44,23 @@
             </a>
             <form class="form">
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Endereço de email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Celular</label>
-                    <input type="telefone" class="form-control"aria-describedby="emailHelp" placeholder="(DDD)0000-0000">
+                    <label for="exampleInputEmail1">Endereço de email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
                   </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Qual filme desenja indicar? </label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome do filme">
+                </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Sua mensagem </label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Deseja receber informações sobre filmes?</label>
+                <label for="basic-url">Cole a Url do trailer</label>
+                <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon3">https://www.youtube.com/</span>
+                </div>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
                 </div>
                 <button type="submit" class="btn btn-primary" ><a href="../../index.HTML">Enviar</a></button>
               </form>
