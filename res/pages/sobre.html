@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./res/css/style.css">
+    <link rel="stylesheet" href="../css/style_contato.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 
     <title>Melhores Filmes do Ano</title>
@@ -25,9 +26,9 @@
     <header>
         <nav>
             <ul class="menu-nav">
-                <li><a href="./res/pages/sobre.html"></a>Sobre</li>
-                <li ><a href="./res/pages/contato.html">Contato</a></li>
-                <li><a href="./res/pages/sugestoes.html"></a>Sugestões</li>
+                <li>Sobre</li>
+                <li>Contato</li>
+                <li>Sugestões</li>
             </ul>
         </nav>
     </header>
@@ -36,38 +37,30 @@
             <h1>Melhores filmes de 2022</h1>
         </section>
         <section class="container">
-            <div class="carousel-item">
-                <img src="./res/img/nope.jpg" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <a href="../../index.HTML" style="position:fixed;width:60px;bottom:40px;right:40px;background-color:#181b19;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+                z-index:1000;">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <form class="form">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Endereço de email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">Não, não Olhe !</h5>
-                    <p class="card-text">
-                        Na zona rural da Califórnia, os irmãos OJ (Daniel Kaluuya) e Emerald (Keke Palmer)
-                        administram uma grande fazenda de treinamento de cavalos. Mas tudo muda quando seu pai Otis
-                        (Keith David) morre de forma misteriosa sob uma nuvem sinistra.
-                        A partir desse momento, moradores de toda a vizinhança passam
-                        a testemunhar um mal terrível se aproximando pelo céu e deixando
-                        um rastro de morte e destruição..</p>
-                    <a href="./res/pages/nope.html" class="btn btn-primary">Visitar</a>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Celular</label>
+                    <input type="telefone" class="form-control"aria-describedby="emailHelp" placeholder="(DDD)0000-0000">
+                  </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Sua mensagem </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./res/img/x_.png" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Deseja receber informações sobre filmes?</label>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">Não, não Olhe !</h5>
-                    <p class="card-text">
-                        Na zona rural da Califórnia, os irmãos OJ (Daniel Kaluuya) e Emerald (Keke Palmer)
-                        administram uma grande fazenda de treinamento de cavalos. Mas tudo muda quando seu pai Otis
-                        (Keith David) morre de forma misteriosa sob uma nuvem sinistra.
-                        A partir desse momento, moradores de toda a vizinhança passam
-                        a testemunhar um mal terrível se aproximando pelo céu e deixando
-                        um rastro de morte e destruição..</p>
-                    <a href="#" class="btn btn-primary">Visitar</a>
-                </div>
-            </div>
+                <button type="submit" class="btn btn-primary" ><a href="../../index.HTML">Enviar</a></button>
+              </form>
         </section>
     </main>
     <footer>
