@@ -1,0 +1,166 @@
+
+
+
+
+.banner {
+    margin: 0px;
+    background-image: url();
+    color: #FF9800;
+    background-color: #696969;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url('../img/AdobeStock_442094579.jpeg');
+    background-size: 900px;
+    width: 100%;
+
+}
+
+
+.elenco ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.elenco li {
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 2px;
+    border-radius:8px;
+    justify-content: space-between;
+    background-color:#d5d5d5;
+ 
+  
+  }
+.card{
+    border-radius: 8px;
+    border: none;
+   
+}
+
+.card-body{
+    min-height: 220px;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+    
+   
+}
+.card-img-top {
+    width:70%;
+    max-height: 150px;
+    margin: 2px auto;
+  
+    border-radius: 8px;
+}
+
+.trailer .card {
+    width: 100%;
+    margin:0 auto;
+    border-radius: 15px;
+    border: none;
+    box-shadow: none;
+    background-color: #F9F9F9;
+
+}
+.card iframe {
+    width: 72%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+.direcao {
+    margin-top: 20px;
+
+}
+img.card-img-top-diretor {
+    height: 300px;
+    width:70%;
+    max-height: 450px;
+    margin: 2px auto;
+    border-radius: 8px 8px 0 0 ;
+}
+
+.card_avaliacao {
+   display: flex;
+
+}
+
+.card_avaliacao .card-body {
+    border-radius: 8px;
+
+}
+.card_avaliacao .card-title {
+    margin-top: 30px;
+    font-size: 2em;
+
+}
+
+.card_avaliacao .card-text {
+    font-size: 1.5em;
+}
+
+.card-img-top-avaliacao {
+    padding: 10px;
+    justify-content: center;
+}
+img.card-img-top-avaliacao {
+    height: 250px;
+    width:20%;
+    margin-left: 10px;
+    border-radius:8px ;
+    padding: 5px;
+}
+.all {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tudo {
+    display:block;
+    text-align: center;
+    width: 30%;
+}
+.wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon{
+    background:top left / contain no-repeat url('../img/icon_pop.svg');
+    width: 48px;
+    height: 48px;
+}
+
+.tomat{
+    background:top left / contain no-repeat url('../img/tomatoes.svg');
+    width: 48px;
+    height: 48px;
+}
+
+.porcetagem {
+    margin-left: 0.1875em;
+    margin-left: calc(1.5px + 0.09375em);
+    color: inherit;
+    font-family: "Franklin Gothic",-apple-system,BlinkMacSystemFont,"PT Sans",Arial,Sans-Serif;
+    font-size: 2em;
+    font-weight: inherit;
+    letter-spacing: .016em;
+    line-height: 1;
+}
+.card_all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

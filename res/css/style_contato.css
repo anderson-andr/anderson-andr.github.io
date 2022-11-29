@@ -1,0 +1,10 @@
+.form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.form a {
+    color:white;
+    text-decoration: none;
+}
