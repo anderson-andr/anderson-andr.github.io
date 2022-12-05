@@ -78,19 +78,13 @@
 }
 
 
- .card-diretor {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    
-  
+.card-title_direcao {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 
-.card-body_diretor{
-    width: 60%;
 
-}
 img.card-img-top-diretor {
     height: 300px;
     width:30%;
@@ -98,6 +92,10 @@ img.card-img-top-diretor {
     margin: 2px auto;
     border-radius: 8px 8px 0 0 ;
 }
+
+.card-body_diretor p {
+    width:60%;
+  }
 
 .card_avaliacao {
    display: flex;
