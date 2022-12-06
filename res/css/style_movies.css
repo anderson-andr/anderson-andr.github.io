@@ -221,3 +221,45 @@ img.card-img-top-avaliacao {
     }
 
 }
+
+
+@media only screen and (max-width:900px) {
+    .container {
+        width: 100%;
+        min-height: 10px;
+    }
+    .card iframe {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+    
+    .card_avaliacao {
+        display: block;
+        background-color: #f2f2f2;
+        padding: 17px;
+        margin-bottom: 10px;
+
+    }
+
+    .card-img-top-avaliacao {
+        width: 100%;
+        display: flex;
+
+    }
+
+    img.card-img-top-avaliacao {
+        width: 40%;
+        height: 200px;
+        margin: 0 auto;
+        border-radius: 8px;
+
+    }
+
+    .card_avaliacao .card-body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
