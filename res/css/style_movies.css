@@ -1,7 +1,3 @@
-
-
-
-
 .banner {
     margin: 0px;
     background-image: url();
@@ -33,43 +29,48 @@
     flex-grow: 1;
     flex-shrink: 1;
     margin: 2px;
-    border-radius:8px;
-    justify-content: space-between;
-    background-color:#d5d5d5;
- 
-  
-  }
-.card{
     border-radius: 8px;
-    border: none;
-    background-color: #D9D9D9;
-   
+    justify-content: space-between;
+    background-color: #f2f2f2;
+
 }
 
-.card-body{
+.card {
+    border-radius: 8px;
+    border: none;
+    background-color: #f2f2f2;
+
+}
+
+.card-body {
     min-height: 220px;
     text-align: center;
     border-radius: 0px 0px 8px 8px;
-    
-   
+
+
+
+
 }
+
 .card-img-top {
-    width:70%;
+    width: 60%;
+    height: 200px;
     max-height: 150px;
-    margin: 2px auto;
-  
+    margin: 0 auto;
+    padding: 5px;
+
     border-radius: 8px;
 }
 
 .trailer .card {
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
     border-radius: 15px;
     border: none;
     box-shadow: none;
-    background-color: #F9F9F9;
 
 }
+
 .card iframe {
     width: 72%;
     height: 400px;
@@ -87,18 +88,18 @@
 
 img.card-img-top-diretor {
     height: 300px;
-    width:30%;
+    width: 30%;
     max-height: 450px;
     margin: 2px auto;
-    border-radius: 8px 8px 0 0 ;
+    border-radius: 8px 8px 0 0;
 }
 
 .card-body_diretor p {
-    width:60%;
-  }
+    width: 60%;
+}
 
 .card_avaliacao {
-   display: flex;
+    display: flex;
 
 }
 
@@ -106,6 +107,7 @@ img.card-img-top-diretor {
     border-radius: 8px;
 
 }
+
 .card_avaliacao .card-title {
     margin-top: 30px;
     font-size: 2em;
@@ -120,22 +122,26 @@ img.card-img-top-diretor {
     padding: 10px;
     justify-content: center;
 }
+
 img.card-img-top-avaliacao {
     height: 250px;
-    width:20%;
+    width: 20%;
     margin-left: 10px;
-    border-radius:8px ;
+    border-radius: 8px;
     padding: 5px;
 }
+
 .all {
     display: flex;
     flex-wrap: wrap;
 }
+
 .tudo {
-    display:block;
+    display: block;
     text-align: center;
     width: 30%;
 }
+
 .wrap {
     display: flex;
     flex-direction: row;
@@ -144,14 +150,14 @@ img.card-img-top-avaliacao {
 }
 
 
-.icon{
-    background:top left / contain no-repeat url('../img/icon_pop.svg');
+.icon {
+    background: top left / contain no-repeat url('../img/icon_pop.svg');
     width: 48px;
     height: 48px;
 }
 
-.tomat{
-    background:top left / contain no-repeat url('../img/tomatoes.svg');
+.tomat {
+    background: top left / contain no-repeat url('../img/tomatoes.svg');
     width: 48px;
     height: 48px;
 }
@@ -160,15 +166,46 @@ img.card-img-top-avaliacao {
     margin-left: 0.1875em;
     margin-left: calc(1.5px + 0.09375em);
     color: inherit;
-    font-family: "Franklin Gothic",-apple-system,BlinkMacSystemFont,"PT Sans",Arial,Sans-Serif;
+    font-family: "Franklin Gothic", -apple-system, BlinkMacSystemFont, "PT Sans", Arial, Sans-Serif;
     font-size: 2em;
     font-weight: inherit;
     letter-spacing: .016em;
     line-height: 1;
 }
+
 .card_all {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+
+@media only screen and (max-width:600px) {
+    .card_avaliacao {
+        display: block;
+        background-color: #f2f2f2;
+        padding: 17px;
+
+    }
+
+    .card-img-top-avaliacao {
+        width: 100%;
+        display: flex;
+
+    }
+
+    img.card-img-top-avaliacao {
+        width: 40%;
+        height: 200px;
+        margin: 0 auto;
+        border-radius: 8px;
+
+    }
+
+    .card_avaliacao .card-body {
+        padding: 0px;
+        margin: 0px;
+    }
+
 }
