@@ -182,6 +182,13 @@ img.card-img-top-avaliacao {
 
 
 @media only screen and (max-width:600px) {
+    .card iframe {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+    
     .card_avaliacao {
         display: block;
         background-color: #f2f2f2;
