@@ -7,7 +7,60 @@ header{
     background-color:#73AAB9;
 
 }
+.main-nav{
+    float: right;
+    /*Remove os marcadores da lista*/
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+ul.main-nav {
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 10px;
+ 
+ }
+.main-nav li{
+    display: inline-block;
+    margin-right: 25px;
+}
 
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #E67E22;
+}
+
+nav div{
+    margin: 0 auto;
+    height: 120px;
+}
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    display: none;
+}
+.mobile-nav-icon  ion-icon{
+   font-size: 200%;
+   color: #ffff
+   ;
+}
 
 main{
   background-color:#F9F9F9;
@@ -16,32 +69,6 @@ main{
 }
 
 
-
-nav {
-    background-color:#73AAB9;
-}
-ul.menu-nav{
-   list-style-type: none;
-   color: #f2f2f2;
-   font-size: 24px;
-   display: flex;
-   justify-content: flex-end;
-   font-family: 'Roboto Condensed', sans-serif;
-   margin: 0;
-   padding: 10px;
-
-}
-
-
-.menu-nav li {
-    padding: 5px;
-    align-self: center;
-}
-
-.menu-nav li a {
-    color: #f2f2f2;
-    text-decoration: none;
-}
 .banner {
     margin: 0px;
     background-image: url();
@@ -178,3 +205,30 @@ footer li {
 
 
   }
+
+  @media only screen and (max-width: 767px) {
+    /*mostrar o menu responsivo que estava e*/
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 35px;
+       
+    }
+    .main-nav li{
+        display: block;
+        
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        border: 0;
+        display: block;
+        padding: 10px 0;
+        font-size: 100%;
+
+    }
+}
