@@ -139,7 +139,7 @@ img.card-img-top-avaliacao {
 .tudo {
     display: block;
     text-align: center;
-    width: 30%;
+    width: 40%;
 }
 
 .wrap {
@@ -181,7 +181,7 @@ img.card-img-top-avaliacao {
 }
 
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:850px) {
     .container {
         width: 100%;
         min-height: 10px;
@@ -219,7 +219,15 @@ img.card-img-top-avaliacao {
         padding: 0px;
         margin: 0px;
     }
+    .card_all {
+       text-align: center;
+       justify-items: center;
+    }
+    
+    
 
 }
+
+
 
 
