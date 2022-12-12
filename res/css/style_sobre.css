@@ -1,0 +1,30 @@
+.card {
+    margin: 50px auto;
+    height: 350px;
+    width: 70%;
+    border-radius: 8px;
+  
+}
+
+.card-body{
+    margin: auto 0;
+    justify-content: center;
+    background-color: #f2f2f2;
+     border-radius: 8px;
+     color:#696969;
+     width:100%;
+    
+}
+ 
+ .card-title   {
+    font-size: 24px;
+    font-weight: bold;
+ }
+ .card-body .card-title   {
+     text-align: justify;
+ }
+ 
+ .card-body p{
+     text-align: justify;
+     margin-right: 20px;
+ }
