@@ -143,6 +143,9 @@ h3{
 .card-body_home p{
     text-align: justify;
     margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
 }
 
 footer ul{
