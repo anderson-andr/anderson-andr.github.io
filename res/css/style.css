@@ -206,6 +206,34 @@ footer li {
 
   }
 
+  @media only screen and (max-width:850px) {
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 35px;
+       
+    }
+    .main-nav li{
+        display: block;
+        
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        border: 0;
+        display: block;
+        padding: 10px 0;
+        font-size: 100%;
+
+    }
+    
+
+}
+
   @media only screen and (max-width: 767px) {
     /*mostrar o menu responsivo que estava e*/
     .mobile-nav-icon {
