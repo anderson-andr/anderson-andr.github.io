@@ -3,6 +3,9 @@
    
 }
 
+body {
+    min-width:400px ;
+}
 header{
     background-color:#73AAB9;
 
@@ -240,12 +243,15 @@ footer li {
         display: inline-block;
     }
 
-    .main-nav {
+    .main-nav  ul{
         float: left;
         margin-top: 20px;
         margin-left: 35px;
+        display: none;
        
     }
+
+    
     .main-nav li{
         display: block;
         
