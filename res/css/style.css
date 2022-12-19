@@ -218,6 +218,7 @@ footer li {
         float: left;
         margin-top: 20px;
         margin-left: 35px;
+        font-size: 18px;
         display: none;
        
     }
@@ -243,9 +244,10 @@ footer li {
 
     ul.main-nav{
         float: left;
-        width: 90%;
+        width: 80%;
         margin-top: 20px;
         margin-left: 0px;
+        font-size: 18px;
         display: none;
        
     }
@@ -253,6 +255,7 @@ footer li {
     .mobile-nav-icon {
         float: right;
         width: 10%;
+        margin-right: 10px;
         
     }
 
