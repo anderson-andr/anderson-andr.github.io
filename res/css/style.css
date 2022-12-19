@@ -214,36 +214,7 @@ footer li {
         display: inline-block;
     }
 
-    .main-nav {
-        float: left;
-        margin-top: 25px;
-        margin-left: 35px;
-       
-    }
-    .main-nav li{
-        display: block;
-        
-    }
-
-    .main-nav li a:link,
-    .main-nav li a:visited{
-        border: 0;
-        display: block;
-        padding: 10px 0;
-        font-size: 100%;
-
-    }
-    
-
-}
-
-  @media only screen and (max-width: 767px) {
-    /*mostrar o menu responsivo que estava e*/
-    .mobile-nav-icon {
-        display: inline-block;
-    }
-
-    .main-nav  ul{
+    ul.main-nav{
         float: left;
         margin-top: 20px;
         margin-left: 35px;
@@ -251,11 +222,7 @@ footer li {
        
     }
 
-    
-    .main-nav li{
-        display: none;
-        
-    }
+  
 
     .main-nav li a:link,
     .main-nav li a:visited{
@@ -265,8 +232,40 @@ footer li {
         font-size: 100%;
 
     }
+
+}
+
+  @media only screen and (max-width: 767px) {
+    /*mostrar o menu responsivo que estava e*/
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    ul.main-nav{
+        float: left;
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 0px;
+        display: none;
+       
+    }
+
+    .mobile-nav-icon {
+        float: right;
+        width: 10%;
+        
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        border: 0;
+        display: inline-flex;
+        padding: 2px 0;
+        font-size: 100%;
+
+    }
     nav div{
         margin: 0 auto;
-        height: 120px;
+        height: 100px;
     }
 }
