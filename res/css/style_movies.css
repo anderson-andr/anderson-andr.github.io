@@ -97,7 +97,30 @@ img.card-img-top-diretor {
 .card-body_diretor p {
     width: 60%;
 }
-
+.your-class{
+    text-align: center;
+}
+h4{
+    width: 98%;
+    color:#f2f2f2;
+    background-color: #b9b9b8;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    
+    
+}
+img.card-img-top-avaliacao_filmes{
+    height: 250px;
+    width: 60%;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0 auto;
+}
 .card_avaliacao {
     display: flex;
     background-color: #f2f2f2;
@@ -126,17 +149,19 @@ img.card-img-top-diretor {
     justify-content: center;
 }
 
+
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 img.card-img-top-avaliacao {
     height: 250px;
     width: 20%;
     margin-left: 10px;
     border-radius: 8px;
     padding: 5px;
-}
-
-.all {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .tudo {
@@ -216,6 +241,14 @@ img.card-img-top-avaliacao {
         margin: 0 auto;
         border-radius: 8px;
 
+    }
+    img.card-img-top-avaliacao_filmes{
+        height: 250px;
+        width: 100%;
+        margin-left: 10px;
+        border-radius: 8px;
+        padding: 5px;
+        margin: 0 auto;
     }
 
     .card_avaliacao .card-body {
