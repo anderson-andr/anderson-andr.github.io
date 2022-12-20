@@ -8,3 +8,27 @@
     color:white;
     text-decoration: none;
 }
+
+.your-class{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+iframe {
+    margin: 5px;
+    width:90%;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+   
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    /*mostrar o menu responsivo que estava e*/
+   .container{
+     min-height: none;
+   }
+}

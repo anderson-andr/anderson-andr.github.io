@@ -159,6 +159,7 @@ footer ul{
     justify-content: flex-end;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
+    
 }
 
 
@@ -173,7 +174,6 @@ footer li {
 
     .container {
         width: 100%;
-        min-height: 850px;
     }
     .carousel-item {
         margin: 50px 0;
@@ -211,6 +211,7 @@ footer li {
   }
 
   @media only screen and (max-width:850px) {
+    
     .mobile-nav-icon {
         display: inline-block;
     }
